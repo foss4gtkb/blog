@@ -20,7 +20,52 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/blog/handson005.html">pix2pix でタイル地図を変換してみた！にトライ！</a></h1>
+                    <h1 class="entry-title"><a href="/blog/handson006.html">Rを用いたGIS ハンズオン</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2018-03-24T00:00:00+09:00">
+                Published: 土 24 3月 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/blog/author/tsukuba_foss4g.html">Tsukuba_FOSS4G</a>
+        </address>
+<p>In <a href="/blog/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info --><h4>「Rを用いたGIS」ハンズオンを開催します (4/5(木) 18:00- TXつくば駅前)</h4>
+<p>業務や研究で広く使われている「R」ですが、これをRを用いた地図データの表示、集計、解析の方法について講習を行います。<br />
+講師は  「オープンデータ+QGIS 統計・防災・環境情報がひと目でわかる地図の作り方」や 「岩波データサイエンス Vol．4 地理空間情報処理」 の著者の一人でもある水谷貴行さんです。  （<a href="http://www.ecoris.co.jp/technical/tec_tyousa/kappatekichi.html">カッパの生息適地地図</a>のかたですよ）  </p>
+<h5>日　時: 2018/04/05(木) 18:00-20:00</h5>
+<h5>場　所： つくばイノベーションプラザ <a href="https://goo.gl/6fXywb">〒305-0031 茨城県つくば市吾妻１丁目１０-１</a></h5>
+<h5>申し込み：<a href="http://goo.gl/QD24rD">こちらからどうぞ。</a></h5>
+<h5>講師：水谷  貴行さん　(株式会社エコリス)</h5>
+<h5>内　容:</h5>
+<h5>Rを用いたGIS</h5>
+<p>ベクタデータは、sfパッケージ、ラスタデータはrasterパッケージを使用し、GISの基本操作の習得と、実際のデータを用いた応用例を実習します。また、RStudioとdplyrパッケージを使用してモダンなデータハンドリングも体験します。</p>
+<h5>対　象: 「R」を使ったことがあるかた</h5>
+<h5>定　員: 18人</h5>
+<h5>部　屋: 中会議室(イノベーションプラザ3F)</h5>
+<h5>環　境: 電源およびインターネット接続環境(wifi)あり</h5>
+<h5>その他: お子様と一緒に参加される方歓迎</h5>
+<p>・会場にお子様をお連れになって(隣に座るなどして)ハンズオンを受講してみましょう。  </p>
+<h5>準　備: 使用するパソコンに以下のR環境を用意しておいてください。</h5>
+<p>•  Windows OS &gt;= 8（macでも可ですが、動作は未確認です。）<br />
+ •  R &gt;= 3.4.1<br />
+ •  RStudio &gt;= 1.0<br />
+ 以下の講習資料2～3ページ目を参照し、事前に使用するパッケージのインストールとデータをダウンロードしておいてください。<br />
+<a href="https://goo.gl/XuuTc2">講習資料</a>  </p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/blog/handson005.html" rel="bookmark"
+                           title="Permalink to pix2pix でタイル地図を変換してみた！にトライ！">pix2pix でタイル地図を変換してみた！にトライ！</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2018-01-07T00:00:00+09:00">
                 Published: 日 07 1月 2018
@@ -31,7 +76,7 @@
         </address>
 <p>In <a href="/blog/category/misc.html">misc</a>.</p>
 
-</footer><!-- /.post-info --><h4>「<a href="https://qiita.com/wata909/items/01d98293bc96f5f43d92">pix2pix でタイル地図を変換してみた！</a>」にトライするあつまりをします(1/30 18:00-)</h4>
+</footer><!-- /.post-info -->                <h4>「<a href="https://qiita.com/wata909/items/01d98293bc96f5f43d92">pix2pix でタイル地図を変換してみた！</a>」にトライするあつまりをします(1/30 18:00-)</h4>
 <h5>日　時: 2018/01/30(火) 18:00-20:00</h5>
 <h5>場　所： つくばイノベーションプラザ<a href="https://goo.gl/6fXywb">〒305-0031 茨城県つくば市吾妻１丁目１０-１</a></h5>
 <h5>申し込み：<a href="http://goo.gl/QD24rD">こちらからどうぞ。</a></h5>
@@ -44,25 +89,10 @@
 <h5>内　容:</h5>
 <h5>pix2pix でタイル地図を変換してみる</h5>
 <p>pix2pixは，ご存じの通り画像から画像への変換を行うDeep Learningの1つです．
-一対の画像を準備することにより，画像間変換が可能となります．
-この変換のための画像を準備するのが大変なのですが，地理空間情報では，
-地図タイルという形で256*256の画像が大量に整備されています．
-そこで，地図タイル画像をpix2pixで簡単に扱えるようにするツールをつかって，
-衛星画像と標高データから，植生図への変換を試みました．
-これを今回のあつまりではさらってみます。</p>
-<h5>対　象: プログラミングやGISに関して幾分の知識があると望ましいです。</h5>
-<h5>定　員: 15人</h5>
-<h5>部　屋: 中会議室(イノベーションプラザ3F)</h5>
-<h5>環　境: 電源およびインターネット接続環境(wifi)あり</h5>
-<h5>その他: お子様と一緒に参加される方歓迎</h5>
-<p>・会場にお子様をお連れになって(隣に座るなどして)一緒にもくもくしてみましょう。  </p>
-<h5>準　備: Ubuntu 14.04 LTR (64bit)がインストール(またはVirtualBox等の仮想環境を用意)されたNOTEPCをご持参ください。</h5>
-<h5>申し込み：<a href="http://goo.gl/QD24rD">こちらからどうぞ。</a></h5>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+一対の画像を準備することにより，画像間変換が可能となります ...</p>
+                <a class="readmore" href="/blog/handson005.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -181,39 +211,6 @@ http://qiita.com/kobake@github/items/68528dfa24ec159ce617  </p>
 <p>電源とテーブル(+ ちょっとつまめるお菓子)は用意しております。<br />
 ネット回線ですが,3-4個のポケットwifiは用意しますが ...</p>
                 <a class="readmore" href="/blog/mokumoku001.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/blog/handson002.html" rel="bookmark"
-                           title="Permalink to つくばQGISハンズオン（第2回）＆FOSS4Gもくもく会の開催">つくばQGISハンズオン（第2回）＆FOSS4Gもくもく会の開催</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2016-10-03T00:01:00+09:00">
-                Published: 月 03 10月 2016
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/blog/author/tsukuba_foss4g.html">Tsukuba_FOSS4G</a>
-        </address>
-<p>In <a href="/blog/category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <p>つくば駅前で第2回QGISハンズオンともくもく会を開催します！</p>
-<p>日　時: 2016/10/13 18:00-21:00(ハンズオンは20:00まで)<br />
-場　所： TXつくば駅前 吾妻交流センター(茨城県つくば市吾妻1－10－1)<br />
-その他： 託児サービスあり(別室の小会議室に託児ルーム設置)    </p>
-<h3>1 ハンズオン</h3>
-<p>内　容: ラスタデータをいじくりまわす(DEM,衛星画像など)<br />
-対　象: GISを使ったことがある人対象(初・中級)<br />
-定　員: 15人<br />
-部　屋: 大会議室or和室(人数次第)<br />
-環　境: 電源&amp;ネットあり(poketwifi 2名に1台)<br />
-申し込み：<a href="http://goo.gl/QD24rD">こちらからどうぞ。</a></p>
-<h4>1) ラスタデータの前処理 ...</h4>
-                <a class="readmore" href="/blog/handson002.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
